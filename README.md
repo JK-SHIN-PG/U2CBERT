@@ -9,5 +9,5 @@ For training U2CBERT
 
 For fine-turing
 ```bash
-  python main.py --RKD_tp="angle" --bth=32 --ep=300  --f_train="True" --f_task="mrpc" --lr=0.000001 --save="saved_file" --gpu="gpu_num" 
+  python main.py --RKD_tp="angle" --bth=32 --ep=300  --f_train="True" --f_task="mrpc" --lr=0.00001 --save="saved_file" --gpu="gpu_num" 
   ```
